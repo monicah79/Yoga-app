@@ -121,3 +121,38 @@
   align-items: center;
   list-style: none;
 }
+
+.top {
+  text-align: center;
+}
+
+.contact-body {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input {
+  padding: 20px;
+}
+
+.options {
+  padding: 20px;
+}
+
+.input-body {
+  width: 100%;
+  
+}
+
+.submit {
+  padding: 20px;
+}
+
+.btn {
+  padding: 20px;
+}
