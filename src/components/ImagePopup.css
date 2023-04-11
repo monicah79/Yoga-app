@@ -1,0 +1,45 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-inner {
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .popup-inner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  .popup-inner p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  
+  .popup-inner button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }

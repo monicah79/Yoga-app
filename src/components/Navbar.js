@@ -30,7 +30,7 @@ function Navbar() {
      <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                Ababil Yoga<i className='fa-regular fa-dove'/>
+                <img src='images/logo.jpeg' alt='logo'/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                < i className={click ? 'fas fa-times' : 'fas fa-bars'} />
