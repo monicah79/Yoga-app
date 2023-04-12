@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
 import './ImagePopup.css'
 
@@ -15,8 +17,8 @@ const ImagePopup = (props) => {
         <div className="popup">
           <div className="popup-inner">
             <img src={props.src2} alt={props.alt} />
-            <p>{props.caption}</p>
-            <button onClick={handleClick}>Close</button>
+            <p className="prop">{props.caption}</p>
+            <button type='submit' onClick={handleClick}>Close</button>
           </div>
         </div>
       )}

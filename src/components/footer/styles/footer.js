@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
     padding: 80px 60px;
@@ -6,7 +6,7 @@ export const Container = styled.div`
     color: #000000;
     
     
-`
+`;
 
 export const Wrapper = styled.div`
     display: flex;
@@ -15,14 +15,14 @@ export const Wrapper = styled.div`
    max-width: 1000px;
     margin: 0 auto;
     
-`
+`;
 
 export const Column = styled.div`
    display:flex;
    flex-direction: column;
    text-align: left;
    margin-left: 60px
-`
+`;
 
 export const Row = styled.div`
     display: grid;
@@ -32,7 +32,7 @@ export const Row = styled.div`
     @media (max-width: 1000px){
         grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
     }
-`
+`;
 
 export const Link = styled.div`
     color: #000814;
@@ -41,14 +41,14 @@ export const Link = styled.div`
     text-decoration: none;
 
     &:hover{
-        color: #FF0366;
+        color: #ff5400;
         transition: 200ms ease-in;
     }
-`
+`;
 
-export const Title= styled.div`
+export const Title = styled.div`
     font-size: 24px;
     color: #000000;
     margin-bottom: 40px;
     font-weight: 700;
-`
+`;
