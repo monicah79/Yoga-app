@@ -7,15 +7,16 @@ const MyComponent = () => (
       <ul className="single-img">
         <ImagePopup
           className="img-img"
+          title="Meditation"
           src="images/img-2.jpg"
           src2="images/img-3.jpg"
           alt="Meditation"
           label="Meditation"
-          caption="Still your mind with a guided powerful relaxing and soothing words from your yoga teacher."
+          caption="Still your mind with a guided powerful relaxing and soothing meditation from your yoga teacher."
         />
         <ImagePopup
           src="images/img-4.jpg"
-          src2="images/img-1.jpg"
+          src2="images/pre.jpg"
           alt="My Image"
           caption="Take the opportunity of being a mum by creating a mother's
         relationship to your unborn baby and optimum possioning of your child in the womb"

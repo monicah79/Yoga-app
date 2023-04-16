@@ -12,12 +12,18 @@ const ImagePopup = (props) => {
 
   return (
     <>
-      <img src={props.src} alt={props.alt} onClick={handleClick} />
+      <img className='imp' src={props.src} alt={props.alt} onClick={handleClick} />
+      
       {isOpen && (
         <div className="popup">
           <div className="popup-inner">
+            <div>
             <img src={props.src2} alt={props.alt} />
+            </div>
+            <div>
             <p className="prop">{props.caption}</p>
+            </div>
+            
             <button type='submit' onClick={handleClick}>Close</button>
           </div>
         </div>

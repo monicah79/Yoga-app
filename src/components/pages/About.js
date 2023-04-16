@@ -4,7 +4,6 @@ import FooterContainer from '../../containers/footer';
 
 const About = () => (
   <div className="home">
-
     <div className="display-home">
       <div className="image" />
       <div>
@@ -17,7 +16,7 @@ const About = () => (
           as a theraputic intervention for releasing stress,anger,anxiety, depression and fatigue.
           With a deep reverence and respect for yoga philosophy, ABABIL YOGA DIANI combines
           meditation for stillness and  mindful application for the modern day.
-          The aim inspire people of all ages, ethnicities,
+          The aim is to inspire people of all ages, ethnicities,
           and backgrounds across the globe.
           Ababil is certified in Diani and has gained extended training
           from master teachers across Africa

@@ -16,13 +16,6 @@ function SectionPage() {
         >
           Our Classes
         </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          Our Classes
-        </Button>
       </div>
       <div className="flex">
         <p className="uppercase">share</p>

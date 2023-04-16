@@ -14,17 +14,13 @@ function Home() {
           <h2 className="hm-h1">Our mission</h2>
           <p className="hm-p">
             Promoting mental health & wellbeing through yoga by teaching individuals and groups as
-            therapeutic intervention for releasing depression, anxiety, stress, anger and fatigue.
+            a therapeutic intervention for releasing depression, anxiety, stress, anger and fatigue.
           </p>
         </div>
         <div className="text">
           <h2 className="hm-h1">Our Vision</h2>
           <p className="hm-p">
-            Getting back to the true you. It can be that simple.
-            Yoga offers a way for us to see a world that is working for you instead of against you.
-            Yoga reminds me that everything is connected so we must live, act, and breathe.
-            The process is the candy.
-            Enjoy!
+            To be the preferred yoga provider at the coast and to the world.
           </p>
         </div>
       </div>
