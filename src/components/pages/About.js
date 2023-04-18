@@ -4,7 +4,9 @@ import FooterContainer from '../../containers/footer';
 
 const About = () => (
   <div className="home">
-    <div className="display-home">
+    {/* <section className="hero-1">
+    </section> */}
+    <section className="display-home">
       <div className="image" />
       <div>
         <h1 className="home-subtitle">Welcome to Ababil Yoga!</h1>
@@ -35,7 +37,7 @@ const About = () => (
       </div>
 
       <FooterContainer />
-    </div>
+    </section>
 
   </div>
 );

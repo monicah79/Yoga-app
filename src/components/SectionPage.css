@@ -16,10 +16,19 @@
   margin-top: 100px;
 }
 
+span{
+ color: #ff5400;
+ margin-right: 20px;
+}
+
+.p1-home {
+  margin-top: -20px;
+}
+
 .hero-container > p {
-  margin-top: 8px;
+  /* margin-top: 8px; */
   color: #fff;
-  font-size: 32px;
+  font-size: 28px;
   font-family: 'Poppins', sans-serif;
 }
 

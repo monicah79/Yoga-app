@@ -6,8 +6,11 @@ import '../App.css';
 function SectionPage() {
   return (
     <div className="hero-container">
-      <h1>FEEL GOOD</h1>
-      <p>Give priority to your mental health</p>
+      <h1>
+        <span>FEEL</span>
+        GOOD
+      </h1>
+      <p className="p1-home">Give priority to your mental health</p>
       <div className="hero-btns">
         <Button
           className="btns"
@@ -18,7 +21,7 @@ function SectionPage() {
         </Button>
       </div>
       <div className="flex">
-        <p className="uppercase">share</p>
+        {/* <p className="uppercase">share</p> */}
         <span className="w-[35px] bg-[#FF0336] h-[2.5px] mr-6" />
         <div className="text-white ">
           <div><i className="fa fa-facebook-square" aria-hidden="true" /></div>
