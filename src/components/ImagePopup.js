@@ -12,7 +12,16 @@ const ImagePopup = (props) => {
 
   return (
     <>
-      <img className='imp' src={props.src} alt={props.alt} onClick={handleClick} />
+
+      
+      <figure className='imp'  data-category={props.label}>
+            {/* <img
+              src={props.src}
+              alt=""
+              className="cards__item__img"
+            /> */}
+            <img className='imp' src={props.src} alt={props.alt} onClick={handleClick} />
+          </figure>
       
       {isOpen && (
         <div className="popup">

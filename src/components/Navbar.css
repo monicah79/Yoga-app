@@ -48,6 +48,7 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
+  
 }
 
 .nav-item {
@@ -91,6 +92,7 @@
     font-size: 1.2rem;
     position: sticky;
     /* z-index: 999; */
+    
   }
   
   .navbar-container {
@@ -121,6 +123,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    
   }
 
   .nav-menu.active {
@@ -129,6 +132,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    
   }
 
   .nav-links {

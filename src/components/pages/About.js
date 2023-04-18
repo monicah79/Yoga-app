@@ -4,10 +4,10 @@ import FooterContainer from '../../containers/footer';
 
 const About = () => (
   <div className="home">
-    {/* <section className="hero-1">
-    </section> */}
-    <section className="display-home">
+    <section className="hero-1">
       <div className="image" />
+    </section>
+    <section className="display-home">
       <div>
         <h1 className="home-subtitle">Welcome to Ababil Yoga!</h1>
         <p className="hm-paragraph">
@@ -29,15 +29,13 @@ const About = () => (
       <div className="connect">
         <h2 className="connect-head">Connect with ABABIL YOGA DIANI</h2>
         <div className="connect-list">
-          <i className="fa fa-facebook-official" aria-hidden="true" />
-          <i className="fa fa-linkedin" aria-hidden="true" />
-          <div className="fal"><i className="fa fa-youtube" aria-hidden="true" /></div>
+          <div className="connect-list"><i className="fa fa-facebook-official" aria-hidden="true" /></div>
+          <div className="connect-list"><i className="fa fa-linkedin" aria-hidden="true" /></div>
+          <div className="connect-list"><i className="fa fa-youtube" aria-hidden="true" /></div>
         </div>
-
       </div>
-
-      <FooterContainer />
     </section>
+    <FooterContainer />
 
   </div>
 );
