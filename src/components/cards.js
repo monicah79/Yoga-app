@@ -18,8 +18,7 @@ function Cards() {
           <div className="cards_left">
             <CardsItem
               src="images/pp-1.jpg"
-              text="Go within everyday and find the inner strength so that the
-              world will not blow your candle out."
+              text="Go within everyday and helps you find the inner strength."
               label="Mindfull stillness"
               path="/Services"
             />

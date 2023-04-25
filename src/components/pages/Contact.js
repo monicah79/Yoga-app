@@ -34,11 +34,11 @@ const Contact = () => {
 
   return (
     <section>
-      <div className="login-banner relative justify-center flex">
+      <div className="login-banner">
         <h1 className="top">Contact Us</h1>
       </div>
 
-      <div className="contact-body flex flex-col md:flex-row">
+      <div className="contact-body">
         <div className="md">
           <h2 className="text-black">Promoting mental health & wellbeing.</h2>
           <p className="text-p">
@@ -58,7 +58,7 @@ const Contact = () => {
 
         </div>
 
-        <div className="md:w-1/2 input-body">
+        <div className="input-body">
           <form className="form" ref={form} onSubmit={sendEmail}>
             <h3 className="text">Leave Us Your Info</h3>
             <span className="span" />
@@ -72,7 +72,7 @@ const Contact = () => {
               placeholder="Email Address *"
               type="email"
             />
-            <select className="options">
+            <select className="options input">
               <option>Select Class</option>
               <option>Meditation</option>
               <option>Relaxing Massage</option>
@@ -84,9 +84,9 @@ const Contact = () => {
               <option>Acro yoga</option>
               <option>Story telling</option>
             </select>
-            <textarea placeholder="Comment" className="submit" />
-            <button type="submit" className="btn">
-              submit now
+            <textarea placeholder="Comment" className="submit input" />
+            <button type="submit" className="btn-submit">
+              submit
             </button>
             <div>{result ? <Result /> : null}</div>
           </form>

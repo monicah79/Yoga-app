@@ -16,9 +16,9 @@
   margin-top: 100px;
 }
 
-span{
- color: #ff5400;
- margin-right: 20px;
+span {
+  color: #ff5400;
+  margin-right: 20px;
 }
 
 .p1-home {
@@ -26,7 +26,6 @@ span{
 }
 
 .hero-container > p {
-  /* margin-top: 8px; */
   color: #fff;
   font-size: 28px;
   font-family: 'Poppins', sans-serif;

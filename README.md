@@ -213,6 +213,6 @@ I would like to thank Microverse for giving me this opportunity to learn and eve
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/monicah79/math-matician-project/blob/dev/License) licensed.
+This project is [MIT](https://github.com/monicah79/Yoga-app/blob/main/license) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

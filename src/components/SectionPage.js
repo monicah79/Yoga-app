@@ -21,7 +21,6 @@ function SectionPage() {
         </Button>
       </div>
       <div className="flex">
-        {/* <p className="uppercase">share</p> */}
         <span className="w-[35px] bg-[#FF0336] h-[2.5px] mr-6" />
         <div className="text-white ">
           <div><i className="fa fa-facebook-square" aria-hidden="true" /></div>

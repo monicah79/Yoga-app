@@ -15,12 +15,12 @@ const ImagePopup = (props) => {
 
       
       <figure className='imp'  data-category={props.label}>
-            {/* <img
-              src={props.src}
-              alt=""
-              className="cards__item__img"
-            /> */}
-            <img className='imp' src={props.src} alt={props.alt} onClick={handleClick} />
+            <div>
+            <img className='imp-1' src={props.src} alt={props.alt} onClick={handleClick} />
+            <div class="centered">{props.text}</div>
+            <div class="bottom-left">{props.time}</div>
+            </div>
+            
           </figure>
       
       {isOpen && (
@@ -32,9 +32,9 @@ const ImagePopup = (props) => {
             <div>
             <p className="prop">{props.caption}</p>
             </div>
-            
+          </div>  
             <button type='submit' onClick={handleClick}>Close</button>
-          </div>
+          
         </div>
       )}
     </>

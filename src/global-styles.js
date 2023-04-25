@@ -2,13 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    overflow-x: hidden;
     font-family: 'Nunito Sans', sans-serif;
-    background: #edf2f4;
-   
   }
 `;
 
