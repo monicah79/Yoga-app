@@ -94,17 +94,12 @@ const Contact = () => {
 
       </div>
       <div className="iframe">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31829.209154411878!2d39.57164941609254!3d-4.287795850523026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x184049e3269666a9%3A0xb04108cd6f581b92!2sDiani%20Beachlifefitness%20kenya%2C%20PH2M%2B3G9%2C%20Diani%20Beach%20Road%2C%20Diani%20Beach!3m2!1d-4.2998458!2d39.583873499999996!4m5!1s0x1840463f2a0b107d%3A0xafa0063ab0f439ad!2sDiani%20Beach!3m2!1d-4.2797626!2d39.5946958!5e0!3m2!1sen!2ske!4v1680487187477!5m2!1sen!2ske"
-          width="600"
-          height="450"
-          title="map"
-          style={{ width: '100%', height: '45rem', border: '0px' }}
-          allowfullscreen=""
-          // samesite="Strict"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d254667.1856333792!2d39.45562033596695!3d-4.186015291940252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-4.3280619!2d39.571700199999995!5e0!3m2!1sen!2ske!4v1682446194848!5m2!1sen!2ske"
+         width="600" 
+         height="450" 
+         style={{border:0, width: '100%'}} 
+         allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <FooterContainer />
     </section>

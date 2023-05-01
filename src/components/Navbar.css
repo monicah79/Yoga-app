@@ -1,121 +1,84 @@
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-}
-
-.navbar-container {
-  display: flex;
-  align-items: center;
-  height: 80vh;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 0 20px;
-}
-
-.nv {
-  color: orange;
-}
-
-.logo-img {
-  width: 50%;
-  height: auto;
-  align-items: center;
-  transition: all 3s ease-in-out;
-  border-radius: 50%;
-  margin: 0 20px;
-}
-
-.logo-img:hover {
-  transform: rotate(360deg);
-}
-
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
-}
-
-.nav-menu {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
-  list-style: none;
-  text-align: center;
-  width: 60vw;
-  justify-content: end;
-  margin-right: 2rem;
-}
-
-.nav-item {
   height: 80px;
+  font-size: 1.2rem;
+  z-index: 9999;
+  transition: background-color 0.5s ease;
 }
 
-.nav-links {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+.wrapper {
+  position: relative;
+  overflow: auto;
   height: 100%;
 }
 
-.nav-links:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
+.nav-scroll {
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
-.fa-bars {
-  color: #fff;
-}
-
-.nav-links-mobile {
-  display: none;
+.navbar-logo img {
+  height: 50px;
+  max-width: 100%;
 }
 
 .menu-icon {
   display: none;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-links {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #ff5400;
+  transition: all 0.2s ease-out;
 }
 
 @media screen and (max-width: 960px) {
-  .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 100px;
-    display: flex;
-    font-size: 1.2rem;
-    position: sticky;
-    border: 1px solid yellow;
-    align-items: center;
-  }
-
-  .logo-img {
-    width: 50%;
-    height: auto;
-    margin-top: 10px;
-    align-items: center;
-    transition: all 3s ease-in-out;
-  }
-
-  .logo-img:hover {
-    transform: rotate(360deg);
-  }
-
-  .NavbarItems {
-    position: relative;
+  .menu-icon {
+    display: block;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
-    position: absolute;
-    top: 80px;
+    height: 100vh;
+    position: fixed;
+    top: 100px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    z-index: 999;
   }
 
   .nav-menu.active {
@@ -124,63 +87,71 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .wrapper {
+    position: relative;
+    height: 100%; /* or a fixed height that matches the height of its contents */
+    top: 0;
+    left: 0;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
   .nav-links {
+    display: inline-block;
+    font-size: 1.5rem;
     text-align: center;
-    padding: 2rem;
     width: 100%;
-    display: table;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    top: -10%;
+    overflow: hidden;
+    overflow-y: auto;
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
-    border-radius: 0;
-  }
-
-  .menu-icon {
-    display: block;
-    align-items: center;
-    align-self: center;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    position: fixed;
-    z-index: 1;
-    margin-top: 25px;
+    color: #000;
   }
 
   .fa-times {
-    color: #fff;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
     font-size: 2rem;
-  }
-
-  .nav-links-mobile {
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-out;
-  }
-
-  .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
-    transition: 250ms;
-  }
-
-  .menu {
     cursor: pointer;
+    color: #fff;
+  }
+
+  .navbar-container.active {
+    left: 0;
+  }
+
+  .menu-icon i {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .menu-icon i:hover {
+    color: #ff5400;
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+
+  .fixed_body {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
   }
 }

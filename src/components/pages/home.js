@@ -25,7 +25,6 @@ function Home() {
         </div>
       </div>
       <div className="down">
-
         <p className="text-contact">
           <i className="fa fa-phone" aria-hidden="true" />
           +254 725 839 017

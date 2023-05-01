@@ -26,11 +26,11 @@ img {
   text-align: center;
 }
 
-.imp-1:hover {
+/* .imp-1:hover {
   transform: scale(1.1);
-}
+} */
 
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,13 +39,31 @@ img {
   text-shadow: 4px 4px 8px #fff;
   font-size: 34px;
   font-weight: 400;
-}
+} */
 
 .bottom-left {
   position: absolute;
   bottom: 8px;
   left: 16px;
   color: #fff;
+  border-bottom: 4px solid transparent;
+  background: #ff5400;
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+/*
+.bottom-left:hover { */
+
+/* color: #ff5400; */
+
+/* border-bottom: 4px solid orangered;
+  transition: all 0.2s ease-out; */
+
+/* } */
+
+.imp:hover .bottom-left {
+  visibility: visible;
 }
 
 .prop {
@@ -64,6 +82,8 @@ img {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  margin: 60px 80px;
+  padding: 40px 100px;
 }
 
 .popup-inner {
@@ -71,22 +91,32 @@ img {
   max-height: 80%;
   overflow: auto;
   background-color: #fff;
-  padding: 1rem;
+
+  /* padding: 1rem; */
   text-align: center;
   position: relative;
   display: flex;
+  margin-top: 60px;
+  justify-content: center;
 }
 
 .popup-inner img {
-  max-width: 100%;
+  /* max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto 1rem;
+  display: block; */
+
+  /* margin: 0 auto 1rem; */
 }
 
 .popup-inner p {
   font-size: 1rem;
   margin-top: 120px;
+}
+
+.prop-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .popup button {

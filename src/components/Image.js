@@ -6,7 +6,7 @@ const MyComponent = () => (
     <div className="img-container">
       <ImagePopup
         text="meditation"
-        time="Monday 10am - 11.30am "
+        time="Mon-Fri 7am - 8am"
         className="img-img"
         title="Meditation"
         src="images/img-2.jpg"
@@ -17,7 +17,7 @@ const MyComponent = () => (
       />
       <ImagePopup
         text="Prenatal"
-        time="Tuesday 11.00am - 1.00pm"
+        time="Mon-Fri 7am - 8am"
         src="images/img-4.jpg"
         src2="images/pre.jpg"
         alt="My Image"
@@ -26,25 +26,25 @@ const MyComponent = () => (
       />
       <ImagePopup
         text="Mindful power yoga vinyasa"
-        time="Wednesday 02.00pm - 5.00pm"
+        time="Mon-Fri 7am - 8am"
         src="images/img-5.jpg"
         src2="images/img-6.jpg"
+        alt="My Image"
+        caption=" Enjoy a smooth flow of yoga sequence to awaken, energize, and relax your body.
+         Physically, mentally, and emotionally."
+      />
+      <ImagePopup
+        text="Thai yoga massage"
+        time="Mon-Fri 7am - 8am"
+        src="images/img-7.jpg"
+        src2="images/img-8.jpg"
         alt="My Image"
         caption="Enjoy a moment with a traditional therapy.
         Combining acupressure indian ayurvedic principles, and assisted yoga postures."
       />
       <ImagePopup
-        text="Thai yoga massage"
-        time="Friday 4.00pm - 06.00pm"
-        src="images/img-7.jpg"
-        src2="images/img-8.jpg"
-        alt="My Image"
-        caption="Enjoy a smooth flow of yoga sequence to awaken,
-        energize, and relax your body. Physically, mentally, and emotionally."
-      />
-      <ImagePopup
         text="Acro yoga"
-        time="Thursdays 11.00am - 02.00pm"
+        time="Mon-Fri 7am - 8am"
         src="images/img-9.jpg"
         src2="images/img-10.jpg"
         alt="My Image"
@@ -52,11 +52,11 @@ const MyComponent = () => (
       />
       <ImagePopup
         text="Relaxing massage"
-        time="Saturday 05.00pm- 07.00pm"
+        time="Mon-Fri 7am - 8am"
         src="images/r-1.jpg"
         src2="images/r-2.jpg"
         alt="My Image"
-        caption="Have fun by strengthening your body by combining yoga and acrobatics"
+        caption="Enjoy a smooth flow of relaxing massage to allow elemination of muscle ache and stress."
       />
     </div>
 

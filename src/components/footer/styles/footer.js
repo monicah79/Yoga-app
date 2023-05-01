@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: colomn;
     justify-content: center;
-   max-width: 1000px;
+
     margin: 0 auto;
 
     
