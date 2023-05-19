@@ -33,16 +33,16 @@ const ImagePopup = (props) => {
             <img src={props.src2} alt={props.alt} />
             </div>
             <div >
-            <p className="prop">{props.caption}</p>
-            <div className='prop-1'>
-            <p>We open everyday</p>
-            <p>Morning sessions starts at 7 am and ends at 8am</p>
-            <p>Evening sessions starts at 5pm and ends at 7pm</p>
-            </div>
+            <h3 className="prop">{props.caption}</h3>
+            <h4 className='time'>We open everyday </h4>
+           <h5 className='tm'> Morning sessions starts at 7 am and ends at 8am<br />
+            Evening sessions starts at 5pm and ends at 7pm</h5>
+            
             
             </div>
-          </div>  
             <button type='submit' onClick={handleClick}>Close</button>
+          </div>  
+            
           
         </div>
       )}

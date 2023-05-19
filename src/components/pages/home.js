@@ -11,14 +11,14 @@ function Home() {
       <Cards />
       <div className="hm-div">
         <div className="text">
-          <h2 className="hm-h1">Our mission</h2>
+          <h2 className="hm-h1">Mission</h2>
           <p className="hm-p">
             Promoting mental health & wellbeing through yoga by teaching individuals and groups as
             a therapeutic intervention for releasing depression, anxiety, stress, anger and fatigue.
           </p>
         </div>
         <div className="text">
-          <h2 className="hm-h1">Our Vision</h2>
+          <h2 className="hm-h1">Vision</h2>
           <p className="hm-p">
             To be the preferred yoga provider at the coast and to the world.
           </p>
