@@ -134,7 +134,38 @@ img {
   cursor: pointer;
   color: #000;
 }
-
+.service-container .service-content{
+  padding: 10px;
+}
+.service-img{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.service-content{
+  display: flex;
+  justify-content: space-between;
+}
+.service-content-left{
+  width: 100%;
+}
+.service-content-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.more-btn{
+  padding: 5px 40px;
+  border: 1px solid #ff5400;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 18px;
+  
+}
+.more-btn:hover{
+  cursor: pointer;
+  color: #ff5400;
+}
 @media screen and (max-width: 960px) {
   .img-container {
     display: grid;

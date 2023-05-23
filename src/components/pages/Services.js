@@ -1,5 +1,5 @@
 import React from 'react';
-import MyComponent from '../Image';
+import ServicesImages from '../ServicesImages';
 import '../../App.css';
 import FooterContainer from '../../containers/footer';
 
@@ -17,7 +17,7 @@ export default function Services() {
         </h2>
       </div>
 
-      <MyComponent />
+      <ServicesImages />
       <FooterContainer />
     </>
   );
