@@ -1,45 +1,60 @@
+/* eslint-disable */
 import React from 'react';
-import Footer from '../components/footer';
+import './footer.css';
 
 function FooterContainer() {
   return (
-    <Footer>
-      <Footer.Wrapper>
-        <Footer.Row>
-          <Footer.Column>
-            <Footer.Title>About Us</Footer.Title>
-            <Footer.Link>Story</Footer.Link>
-            <Footer.Link href="#">Clients</Footer.Link>
-            <Footer.Link href="#">Testimonials</Footer.Link>
-            <Footer.Link href="#">Working hours</Footer.Link>
-          </Footer.Column>
+    <footer className="footer">
+      <div className="container">
+        <div className="container-item">
+          <div className="footer-item">
+            <i className="fa fa-map-marker" aria-hidden="true" />
+            <p>Nomads Hotel.
+               <br />
+                Diani</p>
+          </div>
+          <div className="footer-item">
+            <i className="fa fa-mobile" aria-hidden="true" />
+            <p>+254 725 839 017</p>
+          </div>
+          <div className="footer-item">
+            <i className="fa fa-envelope" aria-hidden="true" />
+            <p>samuelkitli2930@gmail.com</p>
+          </div>
+         
+        </div>
 
-          <Footer.Column>
-            <Footer.Title>Services</Footer.Title>
-            <Footer.Link>Relaxing massage</Footer.Link>
-            <Footer.Link href="#">Thai Massage</Footer.Link>
-            <Footer.Link href="#">meditation</Footer.Link>
-            <Footer.Link href="#">Acro-yoga</Footer.Link>
-          </Footer.Column>
+        <div className="container-item">
+          <h4>Services</h4>
+          <ul>
+            <li>meditation</li>
+            <li>mindful yoga</li>
+            <li>Acro yoga</li>
+            <li>Prenatal</li>
+          </ul>
+        </div>
 
-          <Footer.Column>
-            <Footer.Title>Contact Us</Footer.Title>
-            <Footer.Link>Mombasa</Footer.Link>
-            <Footer.Link href="#">Nairobi</Footer.Link>
-            <Footer.Link href="#">Diani</Footer.Link>
-            <Footer.Link href="#">Support</Footer.Link>
-          </Footer.Column>
+        <div className="container-item">
+          <h4>Support</h4>
+          <ul>
+            <li>Contact Support</li>
+            <li>Q & A</li>
+            <li>Careers</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
 
-          <Footer.Column>
-            <Footer.Title>Social Media</Footer.Title>
-            <Footer.Link>Facebook</Footer.Link>
-            <Footer.Link href="#">Linkedin</Footer.Link>
-            <Footer.Link href="#">Youtube</Footer.Link>
-            <Footer.Link href="#">Instagram</Footer.Link>
-          </Footer.Column>
-        </Footer.Row>
-      </Footer.Wrapper>
-    </Footer>
+        <div className="container-item">
+          <h4>Connect With Us</h4>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>LinkedIn</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   );
 }
 
