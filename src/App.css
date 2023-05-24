@@ -17,10 +17,10 @@
   margin: 80px auto;
 }
 
-.hm-h1 {
+.mission-headings {
   font-size: 20px;
   text-align: center;
-  color: #ff5400;
+  color: #000;
 }
 
 .text {
@@ -28,22 +28,84 @@
   align-items: center;
 }
 
-.hm-p {
-  font-size: 20px;
-  padding: 20px 100px;
+.mission-paragraph {
+  font-size: 16px;
+  padding: 20px 50px;
   text-align: center;
 }
 
+.mission-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+.mission-slot{
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  border-radius: 50px 20px;
+  /* padding: 50px; */
+
+}
+
+.mission-icons {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 28px;
+  list-style: none;
+  font-size: 30px;
+  color: #ff5400;
+  justify-content: center;
+  font-weight: 700;
+}
+
+hr {
+  width: 46px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: #ff5400;
+}
+
+.Home-image-container {
+  display: flex;
+  width: 100%;
+  padding: 30px 100px;
+  height: 150%;
+}
+
+.Home-image {
+  width: 100%;
+}
+
+.Home-text {
+  width: 100%;
+  height: 100%;
+}
+
+.Texts-quote {
+  padding: 30px;
+}
+
 .down {
-  background-image: url('/public/images/down.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 70vh;
+  background-color: #ff5400;
+  height: 10vh;
   display: flex;
   text-align: center;
   justify-content: center;
   gap: 50px;
+}
+
+.Years {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .text-contact {
@@ -90,7 +152,7 @@
 .ser-2 {
   font-size: 50px;
   color: #fff;
-  margin-top: 100px;
+  margin-top: 500px;
   text-shadow: 2px 2px 8px #ff5400;
 }
 
@@ -539,4 +601,10 @@ button {
   --fc-today-bg-color: #ff5400;
 
   color: #000;
+}
+
+.rights {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
 }

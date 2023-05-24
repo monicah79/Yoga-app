@@ -19,6 +19,15 @@ export default function Services() {
 
       <ServicesImages />
       <FooterContainer />
+      <div className="rights">
+        <p>
+          COPYRIGHT © 2023 YOGA WITH ABABILYOGA, LLC ·
+          TERMS & CONDITIONS ·
+          PRIVACY POLICY ·
+          NEWSLETTER ·
+          SUPPORT
+        </p>
+      </div>
     </>
   );
 }

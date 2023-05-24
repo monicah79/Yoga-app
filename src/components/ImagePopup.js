@@ -22,18 +22,16 @@ const ImagePopup = (props) => {
             onClick={handleClick}
           />
         </div>
-        {/* <div class="centered">{props.text}</div> */}
-        {/* <div class="bottom-left"> */}
         <div className="service-content">
           <div className="service-content-left">
           <h5>{props.text}</h5>
           <p>{props.time}</p>
           </div>
           <div className="service-content-right">
-            <button className="more-btn">View</button>
+            <button className="more-btn" onClick={handleClick}>View More</button>
           </div>
         </div>
-        {/* </div> */}
+        
       </Card>
 
       {isOpen && (

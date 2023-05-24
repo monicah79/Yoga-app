@@ -26,13 +26,6 @@ function Navbar() {
     }
   }, [menuOpen]);
 
-  //this effects makes every page to scroll to half way , I dont know why you included it
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     setScroll(window.scrollY > 50);
-  //   });
-  // }, []);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 

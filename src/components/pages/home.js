@@ -9,33 +9,60 @@ function Home() {
     <>
       <SectionPage />
       <Cards />
-      <div className="hm-div">
-        <div className="text">
-          <h2 className="hm-h1">Mission</h2>
-          <p className="hm-p">
-            Promoting mental health & wellbeing through yoga by teaching individuals and groups as
-            a therapeutic intervention for releasing depression, anxiety, stress, anger and fatigue.
-          </p>
+
+      <div className="Home-image-container">
+        <div className="Home-image">
+          <img src="images/home-1.jpg" alt="logo" />
         </div>
-        <div className="text">
-          <h2 className="hm-h1">Vision</h2>
-          <p className="hm-p">
-            To be the preferred yoga provider at the coast and to the world.
-          </p>
+        <div className="Home-text">
+          <div className="Texts-quote">
+            <h2>Hello</h2>
+            <p>hellofjffjd</p>
+          </div>
+
+          <div className="Texts-quote">
+            <h2>Hello</h2>
+            <p>hellofjffjd</p>
+          </div>
+
+          <div className="Texts-quote">
+            <h2>Hello</h2>
+            <p>hellofjffjd</p>
+          </div>
         </div>
       </div>
+
       <div className="down">
-        <p className="text-contact">
+        {/* <p className="text-contact">
           <i className="fa fa-phone" aria-hidden="true" />
           +254 725 839 017
         </p>
         <p className="text-email">
           <i className="fa fa-envelope-o" aria-hidden="true" />
           samuelkitli2930@gmail.com
-        </p>
+        </p> */}
+
+        <div>
+          <p>150+ Yoga classes</p>
+        </div>
+        <div className="Years">
+          <p>5 Years Experience</p>
+        </div>
+        <div>
+          <p>1500+ clients</p>
+        </div>
 
       </div>
       <FooterContainer />
+      <div className="rights">
+        <p>
+          COPYRIGHT © 2023 YOGA WITH ABABILYOGA, LLC ·
+          TERMS & CONDITIONS ·
+          PRIVACY POLICY ·
+          NEWSLETTER ·
+          SUPPORT
+        </p>
+      </div>
     </>
   );
 }
