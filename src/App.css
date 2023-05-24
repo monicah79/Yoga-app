@@ -30,7 +30,7 @@
 
 .mission-paragraph {
   font-size: 16px;
-  padding: 20px 50px;
+  padding: 20px 10px;
   text-align: center;
 }
 
@@ -39,9 +39,7 @@
   justify-content: space-between;
   margin-top: 80px;
   width: 100%;
-  gap: 20px;
-
-  /* justify-content: center; */
+  gap: 10px;
 }
 
 .mission-slot {
@@ -49,6 +47,7 @@
   height: auto;
   border: 1px solid #000;
   border-radius: 50px 20px;
+  
 }
 
 .mission-icons {
@@ -327,8 +326,7 @@ hr {
   .mission-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    gap: 20px;
+    width: 100%;
     margin: 80px auto;
   }
 
