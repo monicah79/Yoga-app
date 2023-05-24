@@ -26,12 +26,6 @@ function Navbar() {
     }
   }, [menuOpen]);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 50);
-    });
-  }, []);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -40,7 +34,7 @@ function Navbar() {
   return (
     <>
       <div className="wrapper">
-        <nav className={scroll ? 'navbar nav-scroll' : 'navbar'}>
+        <nav className='navbar'>
           <div>
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <img className='logo-img' src="images/logo.jpg" alt="logo" />

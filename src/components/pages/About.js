@@ -27,6 +27,35 @@ const About = () => (
           </p>
         </div>
 
+        <div className="mission-container">
+          <div className="mission-slot">
+            <div className="mission-icons"><i className="fa fa-yoast" aria-hidden="true" /></div>
+            <h2 className="mission-headings">MISSION</h2>
+            <hr />
+            <p className="mission-paragraph">
+              Promoting mental health & wellbeing through yoga.
+            </p>
+          </div>
+
+          <div className="mission-slot">
+            <div className="mission-icons"><i className="fa fa-globe" aria-hidden="true" /></div>
+            <h2 className="mission-headings">VISION</h2>
+            <hr />
+            <p className="mission-paragraph">To be the preferred yoga provider at the coast and to the world.</p>
+          </div>
+
+          <div className="mission-slot">
+            <div className="mission-icons"><i className="fa fa-trophy" aria-hidden="true" /></div>
+            <h2 className="mission-headings">ACHIEVEMENTS</h2>
+            <hr />
+            <p className="mission-paragraph">
+              We have managed to teach individuals
+              and groups as a therapeutic intervention for releasing depression,
+              anxiety, stress, anger and fatigue.
+            </p>
+          </div>
+        </div>
+
         <div className="connect">
           <h2 className="connect-head">Connect with ABABIL YOGA DIANI</h2>
           <div className="connect-list">
@@ -39,6 +68,15 @@ const About = () => (
 
     </div>
     <FooterContainer />
+    <div className="rights">
+      <p>
+        COPYRIGHT © 2023 YOGA WITH ABABILYOGA, LLC ·
+        TERMS & CONDITIONS ·
+        PRIVACY POLICY ·
+        NEWSLETTER ·
+        SUPPORT
+      </p>
+    </div>
   </>
 );
 
