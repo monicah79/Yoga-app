@@ -86,7 +86,7 @@ Html
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yoga-app-ababil.netlify.app/)
+- [Live Demo Link](https://ababil-yoga-diani.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

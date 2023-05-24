@@ -37,7 +37,7 @@ const ImagePopup = (props) => {
       {isOpen && (
         <div className="popup">
           <div className="popup-inner">
-            <div>
+            <div className="pop-imges">
               <img src={props.src2} alt={props.alt} />
             </div>
             <div>

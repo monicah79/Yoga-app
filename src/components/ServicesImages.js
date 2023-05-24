@@ -34,7 +34,7 @@ const ServicesImages = () => (
       />
       <ImagePopup
         text="Thai yoga massage"
-        time="Mon-Fri 7am - 8am"
+        time="Book for session"
         src="images/img-7.jpg"
         src2="images/img-8.jpg"
         alt="My Image"
@@ -51,7 +51,7 @@ const ServicesImages = () => (
       />
       <ImagePopup
         text="Relaxing massage"
-        time="Mon-Fri 7am - 8am"
+        time="Book for session"
         src="images/r-1.jpg"
         src2="images/r-2.jpg"
         alt="My Image"

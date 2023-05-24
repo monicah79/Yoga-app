@@ -13,7 +13,7 @@ function Home() {
       <Carousel />
 
       <div className="down">
-        <div>
+        <div className="counts">
           <p>150+ Yoga classes</p>
         </div>
         <div className="Years">

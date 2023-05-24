@@ -50,7 +50,7 @@ const About = () => (
             <hr />
             <p className="mission-paragraph">
               We have managed to teach individuals
-              and groups therapeutic intervention for releasing depression,
+              and groups as a therapeutic intervention for releasing depression,
               anxiety, stress, anger and fatigue.
             </p>
           </div>

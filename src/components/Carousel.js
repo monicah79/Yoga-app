@@ -10,19 +10,19 @@ export const Carousel = () => {
       title: 'Healthy Daily life',
       description:
         '"When you think about quiting think about why you started in the first place"',
-      src: 'images/home-2.jpg',
+      src: 'images/home-2.webp',
     },
     {
       title: 'Improve Your Mindset',
       description:
         '"Life is a reflection of your thinking. If you don’t like what you see, the only thing to be changed is your thoughts." ',
-      src: 'images/home-1.jpg',
+      src: 'images/home-5.webp',
     },
     {
       title: 'Body & Mind Balance',
       description:
         '"To me good health is more than just exercise and diet, Its really a point of view and all mental attitude you have about yourself."',
-      src: 'images/home-3.jpeg',
+      src: 'images/home-4.webp',
     },
   ];
   const updateIndex = (newIndex) => {
